@@ -1,0 +1,1 @@
+A fullstack Human Resource Management System using React + Node + SQL.
