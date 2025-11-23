@@ -16,21 +16,12 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        {/* Simple top navigation for now */}
-        {/* <nav style={{ padding: '10px', borderBottom: '1px solid #ddd', marginBottom: '20px' }}>
-          {!token && <Link to="/login" style={{ marginRight: '10px' }}>Login</Link>}
-          {!token && <Link to="/register-org" style={{ marginRight: '10px' }}>Register Org</Link>}
-          {token && (<button onClick={handleLogout}>Logout</button>)}
-          {token && <Link to="/employees" style={{ marginRight: '10px' }}>Employees</Link>}
-          {token && <Link to="/teams" style={{ marginRight: '10px' }}>Teams</Link>}
-          {token && <Link to="/logs">Logs</Link>}
-        </nav> */}
 
         <div style={{ padding: '0 20px' }}>
           <Routes>
             {/* Public routes */}
             <Route path="/login" element={<Login />} />
-            <Route path="/register-org" element={<RegisterOrg />} />
+            <Route path="/register" element={<RegisterOrg />} />
 
             {/* Protected group */}
           <Route element={<ProtectedRoute />}>

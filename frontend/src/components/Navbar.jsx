@@ -16,7 +16,7 @@ function Navbar() {
       {!token ? (
         <>
           <Link to="/login" style={{ marginRight: '10px' }}>Login</Link>
-          <Link to="/register-org">Register Org</Link>
+          <Link to="/register">Register Org</Link>
         </>
       ) : (
         <>

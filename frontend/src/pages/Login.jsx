@@ -94,7 +94,7 @@ function Login() {
         </form>
 
         <p style={{ marginTop: '16px', fontSize: '14px' }}>
-          New organisation? <a href="/register-org">Register here</a>
+          New organisation? <a href="/register">Register here</a>
         </p>
       </div>
     </div>
