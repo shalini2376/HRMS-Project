@@ -10,10 +10,8 @@ const logRoutes = require('./routes/logs');
 dotenv.config()
 const app = express()
 
-// Enable CORS BEFORE my routes
-app.use(cors({
-  origin: 'http://localhost:5173', // my Vite frontend
-}));
+// Enable CORS 
+app.use(cors());
 
 // Middleware to parse JSON
 app.use(express.json())
