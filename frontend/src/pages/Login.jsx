@@ -1,6 +1,6 @@
 // src/pages/Login.jsx
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link  } from 'react-router-dom';
 import api from '../services/api';
 
 function Login() {
@@ -94,7 +94,7 @@ function Login() {
         </form>
 
         <p style={{ marginTop: '16px', fontSize: '14px' }}>
-          New organisation? <a href="/register">Register here</a>
+          New organisation? <Link to="/register">Register here</Link>
         </p>
       </div>
     </div>

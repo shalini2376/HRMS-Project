@@ -1,6 +1,6 @@
 // src/pages/RegisterOrg.jsx
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import api from '../services/api';
 
 function RegisterOrg() {
@@ -125,7 +125,7 @@ function RegisterOrg() {
           </button>
 
           <p style={{ marginTop: '12px', fontSize: '14px' }}>
-            Already registered? <a href="/login">Go to Login</a>
+            Already registered? <Link to="/login">Go to Login</Link>
           </p>
         </form>
       </div>
