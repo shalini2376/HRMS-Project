@@ -1,3 +1,7 @@
+## 🔗 Live Demo
+Frontend: https://hrms-assignment.netlify.app  
+Backend : https://hrms-project-wowh.onrender.com  
+
 # HRMS – Human Resource Management System
 
 A full-stack **Human Resource Management System (HRMS)** built with:
@@ -13,7 +17,7 @@ Git & GitHub — version control,
 VS Code — development
 
 - **Features:** Organisations registration, Admin login, Employees, Teams, Employee ↔ Team assignment, Audit Logs
-
+  
 This project was built as a full-stack assignment to demonstrate:
 
 - Secure authentication
